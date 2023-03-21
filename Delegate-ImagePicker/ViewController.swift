@@ -30,7 +30,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             self.present(alert, animated: false)
         }
     }
-
+    
     // 이미지 피커에서 이미지를 선택했을 때 호출되는 메소드
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         // 이미지 피커 컨트롤러 창 닫기
